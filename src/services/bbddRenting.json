@@ -1,43 +1,54 @@
 {
   "marcas": [
     {
-    "id": "1",
-    "nombre":"Alfa Romeo",
-    "origen": "Italia",
-    "anioFundacion": 1910
+      "id": "1",
+      "nombre": "Alfa Romeo",
+      "origen": "Italia",
+      "anioFundacion": 1910
+    },
+    {
+      "id": "2d39",
+      "nombre": "Cheve",
+      "anioFundacion": 1940,
+      "origen": "Alemania"
     }
-    
   ],
   "modelos": [
     {
-      "id":"1",
+      "id": "1",
       "idMarca": "1",
       "modelo": "Giulia",
       "extraPorModelo": 12
+    },
+    {
+      "id": "074f",
+      "idMarca": "2d39",
+      "modelo": "Rolet",
+      "extraPorModelo": 13
     }
-    
   ],
   "vehiculos": [
     {
-    "id":"1",
-    "idModelo": "1",
-    "precioDia": 98,
-    "puertas": 4,
-    "sillaInfantil": false
+      "id": "1",
+      "idModelo": "1",
+      "precioDia": 98,
+      "puertas": 4,
+      "sillaInfantil": false
     }
   ],
   "clientes": [
-      {
-        "id":"1",
-        "nombre":"Diego Velázquez",
-        "dni": "76523137I",
-        "alquileres":[
-          {
-            "idVehiculo":"1",
-            "numDias":4,
-            "fechaInic": "12/11/2025"
-          }
-        ]
-      }
-  ]
+    {
+      "id": "1",
+      "nombre": "Diego Velázquez",
+      "dni": "76523137I",
+      "alquileres": [
+        {
+          "idVehiculo": "1",
+          "numDias": 4,
+          "fechaInic": "12/11/2025"
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
