@@ -11,6 +11,12 @@
       "nombre": "Cheve",
       "anioFundacion": 1940,
       "origen": "Alemania"
+    },
+    {
+      "nombre": "Volf",
+      "origen": "Japan",
+      "anioFundacion": 1934,
+      "id": "SS3QFV2KvmM"
     }
   ],
   "modelos": [
@@ -25,6 +31,18 @@
       "idMarca": "2d39",
       "modelo": "Rolet",
       "extraPorModelo": 13
+    },
+    {
+      "idMarca": "1",
+      "modelo": "Julieta",
+      "id": "R6F7NEEuUNo",
+      "extraPorModelo": 28
+    },
+    {
+      "idMarca": "SS3QFV2KvmM",
+      "modelo": "Vagette",
+      "id": "FAk1rkh1_6o",
+      "extraPorModelo": 50
     }
   ],
   "vehiculos": [
@@ -34,6 +52,27 @@
       "precioDia": 98,
       "puertas": 4,
       "sillaInfantil": false
+    },
+    {
+      "idModelo": "R6F7NEEuUNo",
+      "precioDia": 35,
+      "puertas": 2,
+      "sillaInfantil": true,
+      "id": "_nriZmH9LVk"
+    },
+    {
+      "idModelo": "074f",
+      "precioDia": 70,
+      "puertas": 3,
+      "sillaInfantil": false,
+      "id": "qCmS3qYXT-I"
+    },
+    {
+      "idModelo": "FAk1rkh1_6o",
+      "precioDia": 10,
+      "puertas": 2,
+      "sillaInfantil": false,
+      "id": "K69MrQmbL0Q"
     }
   ],
   "clientes": [
@@ -48,6 +87,33 @@
           "fechaInic": "12/11/2025"
         }
       ]
+    },
+    {
+      "nombre": "Maria",
+      "dni": "543778H",
+      "alquileres": [
+        {
+          "idVehiculo": "_nriZmH9LVk",
+          "numDias": 16,
+          "fechaInic": "26/03/2026"
+        },
+        {
+          "idVehiculo": "K69MrQmbL0Q",
+          "numDias": 3,
+          "fechaInic": "21/03/2026"
+        },
+        {
+          "idVehiculo": "qCmS3qYXT-I",
+          "numDias": 11,
+          "fechaInic": "23/03/2026"
+        },
+        {
+          "idVehiculo": "1",
+          "numDias": 18,
+          "fechaInic": "01/04/2026"
+        }
+      ],
+      "id": "Eo6CzZJSl5s"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

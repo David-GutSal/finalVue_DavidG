@@ -10,12 +10,11 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
-    "vue": "^3.5.29",
     "axios": "^1.13.4",
     "bootstrap": "^5.3.8",
-    "vite": "^7.3.1",
-    "vuex": "^4.1.0",
     "bootstrap-icons": "^1.13.1",
+    "vite": "^7.3.1",
+    "vue": "^3.5.29",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {
